@@ -1,0 +1,227 @@
+@charset "utf-8";
+
+body {
+    background: url(layoutBackground.png);
+    
+}
+
+
+.kims {
+    border: 4px salmon solid;
+    width: 940px;
+    height: 834px;
+    margin: 20px auto;
+
+    /* box-sizing: border-box; */
+}
+
+
+/**** header ****/
+header {
+    font-family: "Lobster Two", sans-serif;
+    /* background-color: #7D1E6A; */
+    /* height: 130px;  */
+    
+    /* width: 932px; */
+    
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+/* logo */
+header .header_logo {
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+}
+header .header_logo .logo_tit { 
+    color: white;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;   
+}
+header .header_logo .logo_tit h2 { 
+    font-size: 34px;
+}
+header .header_logo .logo_tit h3 { 
+    font-size: 30px;
+}
+header .header_logo {
+    background-color: #7D1E6A;
+}
+
+/* nav / meau */
+header .header_meau {
+    background-color: #FFCD38;
+    font-family: "Noto Sans KR", sans-serif;
+    display: flex;
+    
+}
+header .header_meau li {
+    /* background-color: #FFCD38; */
+}
+header .header_meau li a {
+    background-color: #ffcd38;
+    color: #7D1E6A;
+    font-weight: bold;
+    text-align: center;
+    width: 106px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+}
+header .header_meau li a:hover {
+    background-color: #E4010B;
+    color: white;
+
+}
+
+/**** contents ****/
+.contents {
+    /* background-color: orange; */
+    font-family: "Noto Sans KR", sans-serif;
+    /* padding: 10px; */
+    /* margin: 10px; */
+    display: flex;
+    
+
+}
+
+/* 푸드 클래스 + 클래스 소개 */
+.contents .foodClass {
+    background-color: #F1EEE9;
+    padding: 10px;
+    width: 645px;
+    min-width: 640px;
+    max-width: 680px;
+    height: 624px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+}
+.contents .foodClass .classList {
+
+    gap: 20px;
+}
+.contents .foodClass .classList figure {
+    background-color: #fff;
+    text-align: center;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #E4010B;
+    width: 309px; height: 239px;
+    margin-bottom: 40px;
+
+}
+.contents .foodClass .classList figure img {
+    /* margin: 0 auto; */
+    
+}
+
+.contents .foodClass .classList figure figcaption { 
+    color: #dee3e9;
+    padding: 10px;
+    text-align: right;
+    font-style: italic;
+
+}
+.contents .foodClass .classList {
+    padding: 10px;
+    /* margin-left: 30px; */
+
+    display: flex;
+}
+.contents .foodClass .classList h2 {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 20px;
+
+}
+.contents .foodClass .classList h3 {
+    font-weight: bold;
+    font-size: 17px;
+    color: #E4010B;
+    margin-bottom: 14px;
+}
+.contents .foodClass .classList p {
+    font-size: 17px;
+}
+
+/* 인기요리법 + 연락처 */
+.contents .foodInfo {
+    background-color: #fff;
+    /* min-width: 200px; */
+    width: 295px;
+    /* max-width: 285px; */
+    /* height: 650px; */
+    height: 624px;
+    box-sizing: border-box;
+
+}
+.contents .foodInfo .foodRecipe {
+    /* background-color: orchid; */
+    height: 340px;
+
+    /*
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    */
+
+}
+.contents .foodInfo .foodRecipe h3 {
+    font-weight: bold;
+    font-size: 25px;
+    height: 60px;
+    line-height: 60px;
+    color: #E4010B;
+    padding: 20px;
+}
+.contents .foodInfo .foodRecipe .recipe {
+    /* margin-bottom: 10px; */
+}
+.contents .foodInfo .foodRecipe .recipe li {
+
+}
+.contents .foodInfo .foodRecipe .recipe li a {
+    background-color: #fff;
+    border-bottom: 1px solid #E4010B;
+    font-size: 20px;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 20px;
+    display: block;
+}
+.contents .foodInfo .foodRecipe .recipe li a:hover {
+    background-color: #E4010B;
+    color: #fff;
+}
+.contents .foodInfo .tel {
+    font-weight: bold;
+    padding: 20px;
+}
+.contents .foodInfo .tel h3 {
+    font-size: 25px;
+    color: #E4010B;
+    margin-bottom: 40px;
+    margin-top: 28px;
+}
+.contents .foodInfo .tel p {
+    font-size: 17px;
+} 
+/**** footer ****/
+footer {
+    padding: 20px;
+    box-sizing: border-box;
+    height: 35px;
+    font-family: "Noto Sans KR", sans-serif;
+ 
+    /* width: 932px; */
+    background-color: #7D1E6A;
+    color: white;
+
+    display: flex;
+    align-items: center;
+}
